@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>dynamixel_pro_arm</name>
+  <version>0.8.1</version>
+  <description>The dynamixel_pro_arm package</description>
+
+  <maintainer email="baxelrod@willowgarage.com">Brian Axelrod</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <!-- <url type="website">http://ros.org/wiki/dynamixel_pro_arm</url> -->
+
+
+  <author email="baxelrod@willowgarage.com">Brian Axelrod</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>dynamixel_pro_arm_moveit_config</run_depend>
+  <run_depend>dynamixel_pro_arm_description</run_depend>
+  <run_depend>dynamixel_pro_controller</run_depend>
+  <run_depend>dynamixel_pro_driver</run_depend>
+  <run_depend>dynamixel_pro_moveit_controller</run_depend>
+
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
