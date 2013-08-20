@@ -1,0 +1,12 @@
+Source: ros-hydro-dynamixel-pro-arm
+Section: misc
+Priority: extra
+Maintainer: Brian Axelrod <baxelrod@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-dynamixel-pro-arm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-dynamixel-pro-arm-description, ros-hydro-dynamixel-pro-arm-moveit-config, ros-hydro-dynamixel-pro-controller, ros-hydro-dynamixel-pro-driver, ros-hydro-dynamixel-pro-moveit-controller
+Description: The dynamixel_pro_arm package
